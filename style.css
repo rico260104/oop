@@ -2,11 +2,91 @@
   font-family: baloo;
   src: url(Baloo-Regular.ttf);
 }
-.content {
+body{
+  font-family: baloo;
+}
+.conteiner{
   position: relative;
-  height: 75%;
-  padding: 0 80px;
+}
+/* navbar */
+nav{
+  position: relative;
+  width: 100vw;
   z-index: 2;
+}
+.nav-order{
+  /* background-color: red; */
+  padding: 0;
+  margin: 0;
+  width: 50vw;
+  justify-content: space-evenly;
+}
+.nav-link{
+  list-style: none;
+}
+.nav-link a{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+.logo img{
+  height: 85px;
+  padding: 10px;
+}
+.kontak button{
+  font-size: 24px;
+  padding: 10px 30px;
+}
+
+/* end navbar */
+
+.content {
+  background-color: aqua;
+  position: relative;
+  height: 50%;
+  padding-top: 8vh;
+  padding-left: 25vw;
+  z-index: 2;
+}
+.container-banner {
+  background-color: #064F48;
+  height: 60px;
+  width: 28%;
+  margin-left:20px;
+  margin-top: 10px;
+}
+.container-banner-copy {
+  position: absolute;
+  background-color: aqua;
+  height: 24px;
+  width: 21%;
+  top: 122px;
+  left: 673px;
+  z-index: 3;
+}
+.sm-banner {
+  /* background-color: red; */
+  /* width: 100vw; */
+  /* height: 100px; */
+  top: 55px;
+  left: 680px;
+  position: absolute;
+}
+.sm-banner img {
+  width: 100px;
+}
+.sm-banner img:nth-child(1) {
+  position: relative;
+  transform: rotate(-10deg) translate(20px, 20px);
+}
+.sm-banner img:nth-child(2) {
+  z-index: 2;
+  position: relative;
+}
+.sm-banner img:nth-child(3) {
+  position: relative;
+  transform: rotate(10deg) translate(-21px, 20px);
 }
 
 .section-1 {
@@ -28,12 +108,12 @@
   z-index: 1;
 }
 .section-1 h1 {
-  font-size: 57px !important;
+  font-size: 68px !important;
 }
 
 .section-1 .child-2 {
   display: inline-block;
-  padding: 5px 10px;
+  padding: 0 15px;
   background-color: #b11f24;
 }
 .section-1 .child-2 h1 {
@@ -44,4 +124,7 @@
 }
 .bg-orange {
   background-color: #f4680a;
+}
+.child-3{
+  margin-left: 20px;
 }
